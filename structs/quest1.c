@@ -48,7 +48,7 @@ void maior_menor_salario(Funcionario** funcionarios){
         }
 
         if((*funcionarios)[i].salario < menor){
-            strcpy(cargo_maior, (*funcionarios)[i].cargo);
+            strcpy(cargo_menor, (*funcionarios)[i].cargo);
             menor = (*funcionarios)[i].salario;
         } 
     }
